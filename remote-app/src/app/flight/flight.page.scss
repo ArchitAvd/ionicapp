@@ -1,0 +1,24 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Centers the card vertically and horizontally */
+    padding: 20px; /* Adds space around the card */
+  }
+  
+  ion-card {
+    width: 100%;
+    max-width: 400px; /* Limits the card width on larger screens */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    border-radius: 15px; /* Smooth rounded corners */
+  }
+  
+  ion-card-title,
+  ion-card-subtitle {
+    text-align: center;
+  }
+  
+  ion-button {
+    margin-top: 15px;
+  }
+  

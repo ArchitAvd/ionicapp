@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      User Dashboard
+    </ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="profile-container">
+    <img src="assets/img/user.png" alt="User Avatar" class="profile-avatar" />
+    <h2>{{ user.name }}</h2>
+    <p>{{ user.email }}</p>
+  </div>
+
+  <ion-list>
+    <ion-item>
+      <ion-icon name="person-outline" slot="start"></ion-icon>
+      <ion-label>Username</ion-label>
+      <ion-note slot="end">{{ user.username }}</ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      <ion-label>Email</ion-label>
+      <ion-note slot="end">{{ user.email }}</ion-note>
+    </ion-item>
+
+    <ion-item>
+      <ion-icon name="calendar-outline" slot="start"></ion-icon>
+      <ion-label>Joined</ion-label>
+      <ion-note slot="end">{{ user.joined }}</ion-note>
+    </ion-item>
+  </ion-list>
+
+  <div class="action-buttons">
+    <ion-button expand="block" color="primary" (click)="onClick()">Flights</ion-button>
+   
+  </div>
+</ion-content>
