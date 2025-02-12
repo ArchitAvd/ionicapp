@@ -14,9 +14,5 @@ module.exports = {
     },
   }),
  
-  // ✅ Move output.publicPath here (outside withModuleFederationPlugin)
-  output: {
-    publicPath: "http://localhost:4201/",
-    uniqueName: "app", // Ensures no conflicts in the module federation setup
-  },
+  
 };
