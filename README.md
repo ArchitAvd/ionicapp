@@ -11,18 +11,18 @@ To run the application:
 npm i @ionic/cli
 ```
 
-2. Install required dependencies
+3. Install required dependencies
 
-3. Run host app 
+4. Run host app 
 ```bash
 cd host-app
 ionic serve --port=4200
 ```
 
-4. Run remote app
+5. Run remote app
 ```bash
 cd remote-app
 ionic serve --port=4201
 ```
 
-The host by default looks at port 4201 for the remoteEntry file. To change this modify the manifest file in host app.
+> The host by default looks at port 4201 for the remoteEntry file. To change this modify the manifest file in host app.
